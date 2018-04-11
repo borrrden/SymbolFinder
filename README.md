@@ -14,6 +14,6 @@ Options:
 # Symbol File Format
 One symbol per line to search for, the format is as follows.  Note that symbol_name is the fully namespace qualified name of the symbol (e.g. not Database, but Couchbase.Lite.Database)
 
-c:<symbol_name> searches for a class with the given name (c: prefix is optional)
-p:<symbol_name> searches for a property on a given class with the given name
-m:<symbol_name>(type1, type2, ...) searchfor for a method on a given class with the given name and argument types (types do not need to be the fully qualified name)
+- c:<symbol_name> searches for a class with the given name (c: prefix is optional)<br />
+- p:<symbol_name> searches for a property on a given class with the given name<br />
+- m:<symbol_name>(type1, type2, ...) searchfor for a method on a given class with the given name and argument types (types do not need to be the fully qualified name)
