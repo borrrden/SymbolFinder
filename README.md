@@ -2,15 +2,14 @@
 A tool for finding the existence of a symbol inside of the Couchbase.Lite library.  Used to verify that CE only has what it should.
 
 # Usage
-<pre>
+```
 Usage: SymbolFinder [options]
 
 Options:
-  -?|-h|--help       Show help information
+  -?|-h|--help                    Show help information
   -s|--symbol-file <SYMBOL_FILE>  The list of symbols to check for non-existence
-  -t|--trace:<TRACE>        The amount of logging to perform while running
-</pre>
-
+  -t|--trace:<TRACE>              The amount of logging to perform while running
+```
 The return value of the program is the number of symbols that were found (in other words, the normal return code of 0 is desired for CE)
 
 # Symbol File Format
