@@ -1,0 +1,3 @@
+Couchbase.Lite.Sync.DatabaseEndpoint
+Couchbase.Lite.EncryptionKey
+p:Couchbase.Lite.DatabaseConfiguration.EncryptionKey
